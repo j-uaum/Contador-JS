@@ -1,0 +1,94 @@
+body{
+    background-image: url(pexels-kehn-hermano-3588551.jpg) ;
+   
+    
+    
+     
+    background-color: #373d61;
+    font: normal 15pt Arial;
+    }
+    
+    
+    header{
+    color: lightpink;
+    text-align: center;
+    }
+   
+    section{
+        background-color: white;
+        border-radius: 10px ;
+        padding: 15px ;
+        width: 500px ;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.787);
+        text-align: center;
+    
+     
+    
+    }
+    
+    footer{
+    color: rgb(255, 95, 119);
+    text-align: center;
+    font-style: italic;
+    
+    }
+    
+    
+    .btn{
+        font: normal 15pt Arial;
+        text-transform:Uppercase;
+        font-weight: 700;
+        border:nome;
+        padding:10px ;
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+    
+    
+    }
+    
+    .btn-green{
+        background-color: green;
+        color:whitesmoke;
+        box-shadow:0 5px 0 #006000;
+    }
+    
+    .btn-green:hover{
+        background:#006000;
+        color:whitesmoke;
+        box-shadow:0 5px 0 #003f00;
+    
+    }
+    .btn-green:active{
+        position:relative;
+        top: 5px;
+        box-shadow:none;}
+    
+        #res{
+            background-color: lightgrey;
+        }
+    
+        #h2{
+            font: italic 13pt arial;
+            color: orange
+        }
+
+        
+        .dados{
+            margin-bottom: 1em;
+        }
+
+        .dados label{
+            margin-bottom: 0.2em;
+            display: block;
+
+        }
+
+        .dados input[type="number"]{
+            padding: 0.2em;
+            border: 1px solid lightgray;
+            box-shadow: 2px 2px 2px black;
+           
+
+        }
